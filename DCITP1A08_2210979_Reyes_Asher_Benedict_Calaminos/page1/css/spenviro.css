@@ -1,0 +1,140 @@
+
+/* THIS CSS FILE IS FOR THE sp_environment.html webpage */
+
+@font-face {
+    font-family: "SF_PRO";
+    src: url(../fonts/sf_pro.OTF);
+}
+
+@font-face {
+    font-family: "Open_Sans";
+    src: url(../fonts/opensans.ttf);
+}
+
+@font-face {
+    font-family: "Nunito_Bold";
+    src: url(../fonts/nunitobold.ttf);
+}
+
+@font-face {
+    font-family: "Source_Sans_Pro";
+    src: url(../fonts/sourcesanspro.ttf);
+}
+
+#forestbackground {
+    background-image: url(../photos/forest_background.jpg);
+}
+
+/* background from https://www.wallpaperflare.com/forest-illustration-drawing-nature-artwork-fantasy-art-no-people-wallpaper-hclls */
+
+/* ------------------------------------------------------ */
+
+/* top box */
+
+.topbox {
+    background-color: rgba(250, 220, 85, 0.8);
+    padding: 4px;
+    margin: 40px;
+    border-radius: 15px;
+
+}
+
+.topbox > h1 {
+    text-align: center;
+    font-family: "SF_PRO", Arial, sans-serif;
+    font-size: 25px;
+}
+
+.topbox > p {
+    font-family: "Open_Sans", Helvetica, serif;
+    text-align: center ;
+}
+
+/* ------------------------------------------------------ */
+
+/* what sp has done */
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 10px;
+}
+
+.box {
+    background-color: rgb(172, 235, 78, 0.8);
+    border-radius: 10px;
+}
+
+.container1 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 10px;
+}
+
+.box1 {
+    background-color: rgba(111, 240, 51, 0.8);
+    border-radius: 10px;
+}
+
+#info1 {
+    text-align: center;
+    font-family: "Nunito_Bold", Arial, Helvetica;
+}
+
+#info1a {
+    text-align: center;
+    font-family: "Open_Sans", Helvetica, serif;
+    font-size: 98%;
+}
+
+/* instagram link */
+
+#instagram {
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+}
+
+#instagram:hover {
+    color: rgb(250, 250, 250);
+}
+
+/* ------------------------------------------------------ */
+
+/* link to sp website */
+
+.external_link {
+    font-family: "Open_Sans", Helvetica, serif;
+    text-align: center;
+}
+
+.external_link {
+    background-color: rgb(255, 113, 113);
+    padding: 10px;
+    margin: 12px;
+    border-radius: 10px;
+}
+
+#spenviro {
+    text-decoration: none;
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    font-family: "Open_Sans", Helvetica, serif;
+    
+}
+
+#spenviro:hover {
+    color: white;
+    font-family: "Open_Sans", Helvetica, serif;
+}
+
+/* ------------------------------------------------------ */
+
+/* footer styles */
+
+

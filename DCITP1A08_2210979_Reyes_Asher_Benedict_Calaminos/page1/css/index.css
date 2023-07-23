@@ -1,0 +1,162 @@
+
+@font-face {
+    font-family: "SF_PRO";
+    src: url(../fonts/sf_pro.OTF);
+}
+
+@font-face {
+    font-family: "Open_Sans";
+    src: url(../fonts/opensans.ttf);
+}
+
+@font-face {
+    font-family: "Nunito_Bold";
+    src: url(../fonts/nunitobold.ttf);
+}
+
+@font-face {
+    font-family: "Source_Sans_Pro";
+    src: url(../fonts/sourcesanspro.ttf);
+}
+
+/* THIS CSS FILE IS FOR THE index.html WEBPAGE */ 
+
+#hello {
+    font-family: SF_PRO;
+}
+
+/* general rule for p for this webpage */
+
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -------------------------------------------------------- */
+
+/* background image is from https://pixabay.com/illustrations/earth-space-sunlight-sun-rays-1756274/ */
+
+#background_image {
+    background-image: url(../photos/earth.jpg);
+}
+
+/* -------------------------------------------------------- */
+
+/* custom font for p */
+
+#h3 {
+    font-family: SF_PRO;
+    transform: translateY(-8px);
+
+}
+
+/* -------------------------------------------------------- */
+
+/* top portion of webpage */
+
+.intro {
+    transform: translateY(130px)
+}
+
+.intro > p{
+    text-align: center;
+    color: white;
+}
+
+.intro > h1 {
+    text-align: center;
+    color: white;
+    font-size: 42px;
+}
+
+/* -------------------------------------------------------- */
+
+/* bottom portion of webpage */
+
+#hello1 {
+    font-family: SF_PRO;
+    color: white;
+    margin: auto;
+    text-align: center;
+    transform: translateY(240px);
+    font-size: 35px;
+}
+
+#h4 {
+    color: white;
+    transform: translateY(240px);
+    text-align: center;
+}
+
+/* -------------------------------------------------------- */
+
+
+/* -------------------------------------------------------- */
+
+/* background image for index webpage */
+
+#background_image {
+	opacity: 90%;
+	
+}
+
+/* button style */
+
+#btn {
+    text-align: center;
+}
+
+#btn1 {
+    text-align: center;
+}
+
+
+#button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #63bf66;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transform: translateY(139px);
+    font-family: SF_PRO;
+}
+
+#button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ed3f3f;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transform: translateY(240px);
+    font-family: SF_PRO;
+}
+
+
+
+
+#button:hover {
+    background-color: rgb(255, 254, 254);
+    color: #08890d;
+    transition-duration: 0.3s;
+}
+
+#button1:hover {
+    background-color: white;
+    color: rgb(243, 43, 43);
+    transition-duration: 0.3s;
+}
+
+
+
+/* ------------------------------------------------- */
+
